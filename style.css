@@ -6,7 +6,105 @@ hr {
   width: 100%;
 }
 
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+button {
+    padding: 9px 25px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #3d5e8f;
+    color: whitesmoke;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li, a, h3 {
+    font-family: 'HelveticaNeue-Light';
+    font-weight: 500;
+    font-size: 20px;
+    color: #1a3f75;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+h3 {
+    padding: 9px 25px;
+    border-radius: 20px;
+    background-color: #3d5e8f;
+    color:whitesmoke;
+    
+}
+
+#navbar_items {
+    list-style: none;
+}
+
+#navbar_items li:hover {
+    transition: ease-in 1s;
+
+}
+
+#navbar_items li{
+    display: inline-block;
+    padding: 0px 20px;
+} 
+
 h1 {
-  font-size: 200px;
+  font-size: 100px;
   font-family: "HelveticaNeue-Light";
+  color:#1a3f75;
+  margin: 0px;
+  margin-left: 148px;
+}
+
+/* This is my CSS for my projects */
+
+
+
+#description {
+    font-size: 20px;
+    text-align: center;
+    font-family: HelveticaNeue-Light;
+    color: #1a3f75;
+}
+
+#shareservice {
+  width: 150px;
+}
+
+.site_container {
+
+  margin-top: 100px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.website {
+    margin-left: 67px;
+    width: 16%;
+    margin-bottom: 10px;
+}
+
+.special {
+    color: red;
+}
+
+img {
+  width: 200px;
 }
